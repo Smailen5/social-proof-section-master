@@ -17,13 +17,26 @@ main {
     width: 90rem;
     height: 50rem;
 }
+main div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 15rem;
+    color: #512051;
+    margin-bottom: 4rem;
+    line-height: 3rem;
+}
 
 main h1 {
     font-size: 3.5rem;
     width: 27rem;
-    height: 9rem;
+    height: 9.7rem;
 }
 
 main p {
     width: 27rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #927B91;
 }
