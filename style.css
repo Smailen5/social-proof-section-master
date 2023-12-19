@@ -3,4 +3,27 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    width: 90rem;
+    height: 50rem;
+}
+
+main h1 {
+    font-size: 3.5rem;
+    width: 27rem;
+    height: 9rem;
+}
+
+main p {
+    width: 27rem;
 }
