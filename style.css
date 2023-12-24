@@ -75,7 +75,7 @@ main p {
 
 /* Contenitore star */
 
-.cnt-review {
+.container-review {
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -84,7 +84,7 @@ main p {
 }
 
 
-.cnt-review span {
+.container-review span {
     background: hsla(300, 24%, 96%, 1);
     border-radius: 8px;
     width: 445px;
@@ -108,11 +108,11 @@ main p {
 
 /* allineamento cnt-review destra e sinistra */
 
-.cnt-review span:first-child {
+.container-review span:first-child {
     margin-right: auto;
 }
 
-.cnt-review span:last-child {
+.container-review span:last-child {
     margin-left: auto;
 }
 
@@ -129,4 +129,10 @@ main p {
     width: 20px;
     height: 20px;
     margin-right: 2px;
+}
+
+.container-review span {
+    font-weight: 700;
+    font-size: 1.15rem;
+    color: hsl(300, 43%, 22%);
 }
