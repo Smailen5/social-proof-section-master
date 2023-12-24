@@ -83,18 +83,6 @@ main p {
     align-items: center;
 }
 
-/* crediti chat gpt
-
-.cnt-review {
-  display: flex;
-  justify-content: space-between;
-}
-
-.cnt-review span:first-child {
-  margin-right: auto;
-}
- */
-
 /*  ---------- allineamento cnt-review destra e sinistra ---------- */
 
 .container-review span:first-child {
