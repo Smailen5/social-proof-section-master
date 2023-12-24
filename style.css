@@ -14,27 +14,13 @@ body {
     height: 100vh;
 }
 
-body .img-bg {
-    position: absolute;
-    z-index: -1;
-}
-
-body .top {
-    top: 0;
-    left: 0;
-}
-
-body .bott {
-    bottom: 0;
-    right: 0;
-}
+body .img-bg {position: absolute; z-index: -1;}
+body .top {top: 0; left: 0;}
+body .bott {bottom: 0; right: 0;}
 
 /*  ---------- Contenitore principale per heading e star ---------- */
 
-main .container {
-    display: flex;
-    justify-content: space-between;
-}
+main .container {display: flex; justify-content: space-between;}
 
 main .cnt {
     display: flex;
@@ -47,11 +33,7 @@ main .cnt {
     width: 405px;
 }
 
-main h1 {
-    font-size: 3.5rem;
-    width: 27rem;
-    height: 9.7rem;
-}
+main h1 {font-size: 3.5rem; width: 27rem; height: 9.7rem;}
 
 main p {
     width: 27rem;
@@ -84,20 +66,12 @@ main p {
 
 /*  ---------- allineamento cnt-review destra e sinistra ---------- */
 
-.container-review span:first-child {
-    margin-right: auto;
-}
-
-.container-review span:last-child {
-    margin-left: auto;
-}
+.container-review span:first-child {margin-right: auto;}
+.container-review span:last-child {margin-left: auto;}
 
 /* ---------- Contenitore icone star ---------- */
 
-.icon-container {
-    display: flex;
-    margin-right: 30px;
-}
+.icon-container {display: flex; margin-right: 30px;}
 
 .icon {
     background-image: url('images/icon-star.svg');
@@ -124,13 +98,8 @@ main p {
 
 /*  ---------- Allineamento sopra e sotto le figure ---------- */
 
-.container-figure figure:first-child {
-    margin-bottom: auto;
-}
-
-.container-figure figure:last-child {
-    margin-top: auto;
-}
+.container-figure figure:first-child {margin-bottom: auto;}
+.container-figure figure:last-child {margin-top: auto;}
 
 /* ---------- Singole schede ---------- */
 
@@ -145,29 +114,15 @@ main p {
     align-items: center;
 }
 
-.container-img {
-    width: 80%;
-    display: flex;
-    align-items: center;
-}
+.container-img {width: 80%; display: flex; align-items: center;}
 
-.container-img img {
-    width: 40px;
-    border-radius: 50%;
-}
+.container-img img {width: 40px; border-radius: 50%;}
 
-.container-img figcaption {
-    margin-left: 15px;
-}
+.container-img figcaption {margin-left: 15px;}
 
-figcaption h3 {
-    margin-bottom: 7px;
-    color: hsl(0, 0%, 100%);
-}
+figcaption h3 {margin-bottom: 7px; color: hsl(0, 0%, 100%);}
 
-figcaption span {
-    color: hsl(333, 80%, 67%);
-}
+figcaption span {color: hsl(333, 80%, 67%);}
 
 blockquote p {
     width: 286px;
@@ -178,18 +133,9 @@ blockquote p {
 /* ---------- Media per smarphone ---------- */
 
 @media (max-width: 768px) {
-    body {
-        flex-direction: column;
-        height: 1530px;
-    }
-
-    body .img-bg {
-        display: none;
-    }
-
-    main {
-        width: 90%;
-    }
+    body {flex-direction: column; height: 1530px;}
+    body .img-bg {display: none;}
+    main {width: 90%;}
 
     main .container {
         flex-direction: column;
@@ -205,9 +151,7 @@ blockquote p {
     }
 
     main .cnt h1,
-    main .cnt p {
-        width: 100%;
-    }
+    main .cnt p {width: 100%;}
 
     .container-review {
         width: 100%;
@@ -222,9 +166,7 @@ blockquote p {
         gap: 10px;
     }
 
-    .icon-container {
-        margin: 0;
-    }
+    .icon-container {margin: 0;}
 
     .container-figure {
         flex-direction: column;
@@ -232,11 +174,6 @@ blockquote p {
         gap: 1rem;
     }
 
-    .container-figure figure {
-        width: 100%;
-    }
-
-    .container-figure .container-img {
-        width: 286px;
-    }
+    .container-figure figure {width: 100%;}
+    .container-figure .container-img {width: 286px;}
 }
