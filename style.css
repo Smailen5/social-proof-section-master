@@ -85,7 +85,7 @@ main p {
 
 
 .container-review span {
-    background: hsla(300, 24%, 96%, 1);
+    background: hsl(300, 24%, 96%);
     border-radius: 8px;
     width: 445px;
     height: 56px;
@@ -135,4 +135,26 @@ main p {
     font-weight: 700;
     font-size: 1.15rem;
     color: hsl(300, 43%, 22%);
+}
+
+/* Contenitore figure */
+
+.container-figure {
+    display: flex;
+    gap: 1rem;
+}
+
+.container-figure figure {
+    background: hsl(300, 43%, 22%);
+    border-radius: 8px;
+    width: 350px;
+    height: 234px;
+}
+
+figure {
+    color: hsl(0, 0%, 100%);
+}
+
+blockquote p {
+    width: 286px;
 }
