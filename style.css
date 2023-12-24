@@ -216,11 +216,8 @@ blockquote p {
 
 @media (max-width: 768px) {
     body {
-        /* display: flex; */
         flex-direction: column;
-        /* justify-content: center; */
-        /* align-items: center; */
-        height: 100vh;
+        height: 1530px;
     }
 
     body .img-bg {
@@ -229,7 +226,6 @@ blockquote p {
 
     main {
         width: 90%;
-        height: 90vh;
     }
 
     main .container {
