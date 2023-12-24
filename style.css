@@ -239,17 +239,30 @@ blockquote p {
 
     .container-review {
         width: 100%;
-        /* height: 78px; */
+        /* height: 250px; */
         align-items: normal;
         margin-bottom: 3rem;
     }
+
     .container-review span {
         width: 100%;
+        height: 78px;
         flex-direction: column;
         gap: 10px;
-        /* margin: 0; */
     }
+
     .icon-container {
         margin: 0;
+    }
+    .container-figure {
+        flex-direction: column;
+        height: auto;
+        gap: 1rem;
+    }
+    .container-figure figure {
+        width: 100%;
+    }
+    .container-figure .container-img {
+        width: 286px;
     }
 }
