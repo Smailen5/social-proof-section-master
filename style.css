@@ -64,7 +64,7 @@ main p {
     align-items: center;
 }
 
-/*  ---------- allineamento cnt-review destra e sinistra ---------- */
+/*  ---------- Allineamento cnt-review destra e sinistra ---------- */
 
 .container-review span:first-child {margin-right: auto;}
 .container-review span:last-child {margin-left: auto;}
