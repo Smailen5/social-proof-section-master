@@ -75,7 +75,7 @@ main p {
 
 /* Contenitore star */
 
-.cnt-star {
+.cnt-review {
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -84,7 +84,7 @@ main p {
 }
 
 
-.cnt-star span {
+.cnt-review span {
     background: hsla(300, 24%, 96%, 1);
     border-radius: 8px;
     width: 445px;
@@ -96,22 +96,37 @@ main p {
 
 /* crediti chat gpt
 
-.cnt-star {
+.cnt-review {
   display: flex;
   justify-content: space-between;
 }
 
-.cnt-star span:first-child {
+.cnt-review span:first-child {
   margin-right: auto;
 }
  */
 
- /* allineamento cnt-star destra e sinistra */
+/* allineamento cnt-review destra e sinistra */
 
-.cnt-star span:first-child {
+.cnt-review span:first-child {
     margin-right: auto;
 }
 
-.cnt-star span:last-child {
+.cnt-review span:last-child {
     margin-left: auto;
+}
+
+/* Contenitore icone star */
+
+.icon-container {
+    display: flex;
+    margin-right: 30px;
+}
+
+.icon {
+    background-image: url('images/icon-star.svg');
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
 }
