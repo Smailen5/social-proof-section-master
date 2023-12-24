@@ -11,6 +11,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
 - [Author](#author)
 
 
@@ -24,7 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Smarphone](/images/smarphone.jpeg)
+![Desktop](/images/desktop.jpeg)
 
 ### Links
 
@@ -53,6 +55,11 @@ In questo esercizio ho usato per la prima volta:
 .container-review span:first-child
 ```
 
+## Continued development 
+
+- Rendere responsive il layout non utilizzando più misure fisse
+- Aggiungere una media query per tablet
+- Aggiungere media query landscape per smartphone
 
 ## Author
 

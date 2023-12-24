@@ -41,11 +41,10 @@ main .cnt {
     flex-direction: column;
     justify-content: space-between;
     height: 15rem;
-    color: #512051;
+    color: hsl(300, 43%, 22%);
     margin-bottom: 4rem;
     line-height: 3rem;
     width: 405px;
-    /* da vedere meglio */
 }
 
 main h1 {
@@ -59,7 +58,7 @@ main p {
     line-height: 1.5rem;
     font-weight: 500;
     font-size: 1.1rem;
-    color: #927B91;
+    color: hsl(303, 10%, 53%);
 }
 
 /*  ---------- Contenitore star ---------- */
