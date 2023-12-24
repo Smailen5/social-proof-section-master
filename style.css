@@ -29,7 +29,7 @@ body .bott {
     right: 0;
 }
 
-/* Contenitore principale per heading e star */
+/*  ---------- Contenitore principale per heading e star ---------- */
 
 main .container {
     display: flex;
@@ -62,7 +62,7 @@ main p {
     color: #927B91;
 }
 
-/* Contenitore star */
+/*  ---------- Contenitore star ---------- */
 
 .container-review {
     display: flex;
@@ -95,7 +95,7 @@ main p {
 }
  */
 
-/* allineamento cnt-review destra e sinistra */
+/*  ---------- allineamento cnt-review destra e sinistra ---------- */
 
 .container-review span:first-child {
     margin-right: auto;
@@ -105,7 +105,7 @@ main p {
     margin-left: auto;
 }
 
-/* Contenitore icone star */
+/* ---------- Contenitore icone star ---------- */
 
 .icon-container {
     display: flex;
@@ -126,7 +126,7 @@ main p {
     color: hsl(300, 43%, 22%);
 }
 
-/* Contenitore figure principale */
+/*  ---------- Contenitore figure principale ---------- */
 
 .container-figure {
     display: flex;
@@ -135,7 +135,7 @@ main p {
     align-items: center;
 }
 
-/* Allineamento sopra e sotto le figure */
+/*  ---------- Allineamento sopra e sotto le figure ---------- */
 
 .container-figure figure:first-child {
     margin-bottom: auto;
@@ -145,7 +145,7 @@ main p {
     margin-top: auto;
 }
 
-/* Singole schede */
+/* ---------- Singole schede ---------- */
 
 .container-figure figure {
     background: hsl(300, 43%, 22%);
@@ -187,6 +187,8 @@ blockquote p {
     color: hsl(0, 0%, 100%);
     letter-spacing: -0.3px;
 }
+
+/* ---------- Media per smarphone ---------- */
 
 @media (max-width: 768px) {
     body {
