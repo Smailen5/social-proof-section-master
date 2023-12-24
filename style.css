@@ -137,24 +137,55 @@ main p {
     color: hsl(300, 43%, 22%);
 }
 
-/* Contenitore figure */
+/* Contenitore figure principale */
 
 .container-figure {
     display: flex;
     gap: 1rem;
 }
 
+/* Singole schede */
+
 .container-figure figure {
     background: hsl(300, 43%, 22%);
     border-radius: 8px;
     width: 350px;
     height: 234px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 figure {
     color: hsl(0, 0%, 100%);
 }
 
+.container-img {
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.container-img img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.container-img figcaption {
+    margin-left: 15px;
+}
+
+figcaption h3 {
+    margin-bottom: 7px;
+}
+
+figcaption span {
+    color: hsl(333, 80%, 67%);
+}
+
 blockquote p {
     width: 286px;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: -0.3px;
 }
