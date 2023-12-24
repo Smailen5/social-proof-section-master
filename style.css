@@ -35,6 +35,21 @@ body {
     height: 100vh;
 }
 
+body .img-bg {
+    position: absolute;
+    z-index: -1;
+}
+
+body .top {
+    top: 0;
+    left: 0;
+}
+
+body .bott {
+    bottom: 0;
+    right: 0;
+}
+
 /* main {
     width: 90rem;
     height: 50rem;
